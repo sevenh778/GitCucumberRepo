@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="181.555" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\7du\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\SELENIUM TRAINING WORKSAPCE\CucumberSamplePro\target\test-classes;F:\SELENIUM TRAINING WORKSAPCE\CucumberSamplePro\target\classes;C:\Users\7du\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\7du\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\7du\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\7du\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\7du\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\7du\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\7du\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\7du\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\7du\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\7du\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\7du\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\7du\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\7du\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\7du\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\7du\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\7du\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\7du\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\7du\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\7du\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\7du\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\7du\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\7du\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\7du\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\7du\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\7du\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\7du\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\7du\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\7du\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\7du\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\7du\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\7du\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\7du\AppData\Local\Temp\surefire14413366770078093320\surefirebooter16091788585479208769.jar C:\Users\7du\AppData\Local\Temp\surefire14413366770078093320 2021-08-11T08-44-34_668-jvmRun1 surefire7274099600410478367tmp surefire_017929549479139186173tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\SELENIUM TRAINING WORKSAPCE\CucumberSamplePro\target\test-classes;F:\SELENIUM TRAINING WORKSAPCE\CucumberSamplePro\target\classes;C:\Users\7du\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\7du\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\7du\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\7du\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\7du\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\7du\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\7du\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\7du\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\7du\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\7du\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\7du\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\7du\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\7du\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\7du\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\7du\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\7du\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\7du\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\7du\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\7du\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\7du\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\7du\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\7du\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\7du\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\7du\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\7du\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\7du\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\7du\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\7du\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\7du\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\7du\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\7du\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\7du\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\7du\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\7du\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\7du"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\SELENIUM TRAINING WORKSAPCE\CucumberSamplePro"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\7du\AppData\Local\Temp\surefire14413366770078093320\surefirebooter16091788585479208769.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="7du"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\7du\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\7du\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="F:\SELENIUM TRAINING WORKSAPCE\CucumberSamplePro"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\7du\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.8.1-bin.zip/bin;C:\Program Files\Java\jdk-11.0.11/bin;C:\Program Files\Java\jdk-11.0.11/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files\Java\jdk-11.0.11\bin;C:\maven\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Users\7du\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\7du\AppData\Local\Programs\Python\Python39\;C:\Users\7du\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Registering with ninja website&quot;, &quot;Optional[Regestering with ninja website as a guist user]&quot;](1)" classname="testRunner.TestRunner" time="47.841">
+    <system-out><![CDATA[
+@reg
+Scenario: Registering with ninja website                &amp#27;[90m# src/test/java/features/NinjaRegistration.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI launch the registration page from ninja url&amp#27;[0m   &amp#27;[90m# stepdefinitions.NinjaRegistration.I_launch_the_registration_page_from_ninja_url()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI entered below details&amp#27;[0m                           &amp#27;[90m# stepdefinitions.NinjaRegistration.I_entered_below_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI accepted the privacy policy and clicked submit&amp#27;[0m &amp#27;[90m# stepdefinitions.NinjaRegistration.I_accepted_the_privacy_policy_and_clicked_submit()&amp#27;[0m
+Mail id is already registered , kindly give other mail = org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Success']"}
+  (Session info: chrome=92.0.4515.131)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-N73IAD5', ip: '192.168.199.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\7du\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62528}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79d4530627f85e6a11df859b7a511f53
+*** Element info: {Using=xpath, value=//a[normalize-space()='Success']}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser registered successfully&amp#27;[0m                     &amp#27;[90m# stepdefinitions.NinjaRegistration.User_registered_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 7793
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 11, 2021 8:45:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;login to the ninja website with valid credentials&quot;, &quot;Optional[login into the ninja website with credentials]&quot;](2)" classname="testRunner.TestRunner" time="22.062">
+    <system-out><![CDATA[
+@All @Ninja
+Scenario: login to the ninja website with valid credentials &amp#27;[90m# src/test/java/features/Ninjalogin.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI launched the Ninja website and lauched login page&amp#27;[0m &amp#27;[90m# stepdefinitions.Ninjalogin.i_launched_the_ninja_website_and_lauched_login_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI entered username and password&amp#27;[0m                       &amp#27;[90m# stepdefinitions.Ninjalogin.i_entered_username_and_password()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mi click on submit button&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Ninjalogin.i_click_on_submit_button()&amp#27;[0m
+successfully logged in to the ninja
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser logged in successfully&amp#27;[0m                          &amp#27;[90m# stepdefinitions.Ninjalogin.user_logged_in_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 28775
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 11, 2021 8:45:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;login to the ninja website with invalid credentials&quot;, &quot;Optional[login into the ninja website with credentials]&quot;](3)" classname="testRunner.TestRunner" time="22.279">
+    <system-out><![CDATA[
+@smoke @Ninja
+Scenario: login to the ninja website with invalid credentials &amp#27;[90m# src/test/java/features/Ninjalogin.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI launched the Ninja website and lauched login page&amp#27;[0m   &amp#27;[90m# stepdefinitions.Ninjalogin.i_launched_the_ninja_website_and_lauched_login_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI entered invalid username and password&amp#27;[0m                 &amp#27;[90m# stepdefinitions.Ninjalogin.i_entered_invalid_username_and_password()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mi click on submit button&amp#27;[0m                               &amp#27;[90m# stepdefinitions.Ninjalogin.i_click_on_submit_button()&amp#27;[0m
+Failed to login =  true
+Yes user failed to login , this we require
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser failed to login to the website&amp#27;[0m                    &amp#27;[90m# stepdefinitions.Ninjalogin.user_failed_to_login_to_the_website()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 29132
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 11, 2021 8:46:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;login to the ninja website with no details&quot;, &quot;Optional[login into the ninja website with credentials]&quot;](4)" classname="testRunner.TestRunner" time="19.854">
+    <system-out><![CDATA[
+@smoke @Regression @Ninja
+Scenario: login to the ninja website with no details        &amp#27;[90m# src/test/java/features/Ninjalogin.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI launched the Ninja website and lauched login page&amp#27;[0m &amp#27;[90m# stepdefinitions.Ninjalogin.i_launched_the_ninja_website_and_lauched_login_page()&amp#27;[0m
+USER NOT ENTERED ANY VALUES
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI not entered any values&amp#27;[0m                              &amp#27;[90m# stepdefinitions.Ninjalogin.i_not_entered_any_values()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mi click on submit button&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Ninjalogin.i_click_on_submit_button()&amp#27;[0m
+Failed to login =  true
+Yes user failed to login , this we require
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser failed to login to the website&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Ninjalogin.user_failed_to_login_to_the_website()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 4470
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 11, 2021 8:46:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user should login with valid credentials&quot;, &quot;Optional[Login to the omayo blog]&quot;](5)" classname="testRunner.TestRunner" time="22.15">
+    <system-out><![CDATA[
+@smoke @omayologin
+Scenario Outline: user should login with valid credentials &amp#27;[90m# src/test/java/features/omayo.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigated to the blog home page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Omayo2.i_navigated_to_the_blog_home_page()&amp#27;[0m
+division with zero is undefined, kindly check it =java.lang.ArithmeticException: / by zero
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI have entered &amp#27;[0m&amp#27;[32m&amp#27;[1marun&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m1234&amp#27;[0m                        &amp#27;[90m# stepdefinitions.Omayo2.i_have_entered_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on submit button&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Omayo2.i_click_on_submit_button()&amp#27;[0m
+>>>>>> I am in try block
+user login with the expected status=   Failure
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should be login with the &amp#27;[0m&amp#27;[32m&amp#27;[1mFailure&amp#27;[0m&amp#27;[32m status&amp#27;[0m        &amp#27;[90m# stepdefinitions.Omayo2.user_should_be_login_with_the_status(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 5680
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 11, 2021 8:46:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user should login with valid credentials&quot;, &quot;Optional[Login to the omayo blog]&quot;](6)" classname="testRunner.TestRunner" time="19.048">
+    <system-out><![CDATA[
+@smoke @omayologin
+Scenario Outline: user should login with valid credentials &amp#27;[90m# src/test/java/features/omayo.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigated to the blog home page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Omayo2.i_navigated_to_the_blog_home_page()&amp#27;[0m
+division with zero is undefined, kindly check it =java.lang.ArithmeticException: / by zero
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI have entered &amp#27;[0m&amp#27;[32m&amp#27;[1mSeleniumByArun&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mTest143$&amp#27;[0m          &amp#27;[90m# stepdefinitions.Omayo2.i_have_entered_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on submit button&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Omayo2.i_click_on_submit_button()&amp#27;[0m
+>>>>>> I am in catch block
+user login with the expected status=   Success
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should be login with the &amp#27;[0m&amp#27;[32m&amp#27;[1mSuccess&amp#27;[0m&amp#27;[32m status&amp#27;[0m        &amp#27;[90m# stepdefinitions.Omayo2.user_should_be_login_with_the_status(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 34712
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 11, 2021 8:47:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user should login with valid credentials&quot;, &quot;Optional[Login to the omayo blog]&quot;](7)" classname="testRunner.TestRunner" time="18.848">
+    <system-out><![CDATA[
+@smoke @omayologin
+Scenario Outline: user should login with valid credentials &amp#27;[90m# src/test/java/features/omayo.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigated to the blog home page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Omayo2.i_navigated_to_the_blog_home_page()&amp#27;[0m
+division with zero is undefined, kindly check it =java.lang.ArithmeticException: / by zero
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI have entered &amp#27;[0m&amp#27;[32m&amp#27;[1mTest&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m4321&amp#27;[0m                        &amp#27;[90m# stepdefinitions.Omayo2.i_have_entered_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on submit button&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Omayo2.i_click_on_submit_button()&amp#27;[0m
+>>>>>> I am in try block
+user login with the expected status=   Failure
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should be login with the &amp#27;[0m&amp#27;[32m&amp#27;[1mFailure&amp#27;[0m&amp#27;[32m status&amp#27;[0m        &amp#27;[90m# stepdefinitions.Omayo2.user_should_be_login_with_the_status(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 42925
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 11, 2021 8:47:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
